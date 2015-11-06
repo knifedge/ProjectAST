@@ -1,0 +1,9 @@
+<?php 
+	include('../Includes/functions.php');
+	if(isset($email))
+			redirect_to("manage.php");
+		else
+		{
+			redirect_to("index.php");
+		}
+?>
